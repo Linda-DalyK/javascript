@@ -1,14 +1,10 @@
 function tableMult(num) {
- var result = 1
+    var result = 1
+    var total= num*i
+    for (var i = 1; i <= 10; i++) {
+        result = ((num*i) "=" + "total")
 
- for (var i = 1; i<= 10; i++) {
-
-    result= num*i
+    }
     return result
-
- }
-console.log (3*4);
-
-
 }
-
+console.log(i* 3=);

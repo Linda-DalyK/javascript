@@ -1,10 +1,35 @@
-funtion alphabetSoup(str) {
+function alphabetSoup(str) {
 
-var str= [str.charAt(str.lenght)]
+    var arrayString = string.split(' ');
 
-return str.charcodeAt('')
+
+    for (var i = 0; i < str.length; i++) {
+
+        for (var j = 0; j <= str.length; j++)
+
+            if (string[i] < string[i + 1]) {
+
+                return string[i] - 1;
+            }
+        console.log
+
+    }
+
 }
 
-console.log('Konexio');
 
-/*A REFAIRE*/ 
+
+/*console.log(result)
+
+
+
+        /*else on refait un tour de boucle
+
+        }
+    }
+    /*console.log(string.split[str])
+
+
+
+i parcourt la string la 1ère fois
+j parcourt la string la 2ème fois*/
