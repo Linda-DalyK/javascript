@@ -13,26 +13,30 @@
 
 //  function isPalindrome(str) {
 
-var s = 'never odd or even';
-var rev = s.split('');
-// console.log(rev);
+// var s = 'never odd or even';
+// var rev = s.split('');
+// // console.log(rev);
 
-for (var i = str.length; i >= 0; i--); {
-    result = (rev)
-
-}
-return result
-
-}
-console.log(result)
-
-
-
-    // for (var i = 1; i < str.length ; i++); {
-    //   result = 
-
-//     }
+// for (var i = str.length; i >= 0; i--); {
+//     result = (rev)
 
 // }
+// return result
 
-    // console.log(str.split(''))
+// }
+// console.log(result)
+
+var str = 'never odd or even'
+var strSplit = str.split('')
+console.log(strSplit)
+
+
+ function isPalindrome(str) {
+    for (var i= 0 ; i< strSplit.length ; i++) {
+        result= strSplit[i]  
+    }    
+       
+        console.log(result)
+    
+}
+        
