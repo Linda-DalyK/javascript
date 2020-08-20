@@ -11,7 +11,7 @@ function alphabetSoup(str) {
 
                 return string[i] - 1;
             }
-        console.log
+        console.log()
 
     }
 
