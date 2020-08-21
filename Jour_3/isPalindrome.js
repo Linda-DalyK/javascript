@@ -33,14 +33,19 @@
 // }
 // console.log (str.length[i])
 
+// for (var i = str.length; i >= 0; i--); {
+//     result = (rev)
 
+// }
+// return result
 
 // for (var i = 1; i < str.length ; i++); {
 //   result = 
 
-//     }
+var str = 'never odd or even'
+var strSplit = str.split('')
+console.log(strSplit)
 
-// }
 
 // console.log(str.split(''))
 
