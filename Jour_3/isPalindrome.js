@@ -13,26 +13,59 @@
 
 //  function isPalindrome(str) {
 
-var s = 'never odd or even';
-var rev = s.split('');
+// var s = 'never odd or even';
+// var rev = s.split('');
 // console.log(rev);
 
-for (var i = str.length; i >= 0; i--); {
-    result = (rev)
+// var arr = [];
+// for (var i = 0; i < 10; i++) {
+//   arr.push(i);
+// }
 
-}
-return result
+//  var str = 'hello'
 
-}
-console.log(result)
+// var i = 0
 
 
+// for (var i = 0; i <= str.length-1 ;i++) {
+//    str.length[i]
 
-    // for (var i = 1; i < str.length ; i++); {
-    //   result = 
+// }
+// console.log (str.length[i])
+
+
+
+// for (var i = 1; i < str.length ; i++); {
+//   result = 
 
 //     }
 
 // }
 
-    // console.log(str.split(''))
+// console.log(str.split(''))
+
+
+
+// var str = 'hello'
+function isPalindrome(str) {
+
+var strInverse = ("");
+
+for (var i = 0; i < str.length; i++) {
+    // str += 1;
+    strInverse = str[i] + strInverse;
+}
+if (strInverse !== str) {
+
+    return false;
+
+} else {
+
+    return true;
+
+}
+}
+
+console.log(isPalindrome('kayak'))
+// console.log(strInverse)
+// console.log(str)
