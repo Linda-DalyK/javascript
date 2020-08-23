@@ -1,22 +1,15 @@
-function exOh(str) {
+// function exOh(str) 
 
-    var compteur = 0
-
-    for (var i = 0; i < str.length; i++) {
-        for (var j = 0; j < str.length; j++) {
-        }
-        if (x = o) {
-            return true
-        } else {
-            return false
-
-        }
-        
-    }
-
-}
-
-// afficher le resultat
-console.log(exOh('xooxxo'))
+var str = 'xoxoxoxoxoxoxo'
+var compteur = 0
 
 
+
+console.log(str.indexOf('x'))
+
+
+
+
+
+
+// -------------------------------------A Finir------------------------------------------------------------

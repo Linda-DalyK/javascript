@@ -10,38 +10,6 @@
 // sinon FALSE 
 
 
-
-//  function isPalindrome(str) {
-
-// var s = 'never odd or even';
-// var rev = s.split('');
-// console.log(rev);
-
-// var arr = [];
-// for (var i = 0; i < 10; i++) {
-//   arr.push(i);
-// }
-
-//  var str = 'hello'
-
-// var i = 0
-
-
-// for (var i = 0; i <= str.length-1 ;i++) {
-//    str.length[i]
-
-// }
-// console.log (str.length[i])
-
-// for (var i = str.length; i >= 0; i--); {
-//     result = (rev)
-
-// }
-// return result
-
-// for (var i = 1; i < str.length ; i++); {
-//   result = 
-
 var str = 'never odd or even'
 var strSplit = str.split('')
 console.log(strSplit)
@@ -74,3 +42,6 @@ if (strInverse !== str) {
 console.log(isPalindrome('kayak'))
 // console.log(strInverse)
 // console.log(str)
+
+
+// --------------------------Terminé-------------------------------------------------------------------

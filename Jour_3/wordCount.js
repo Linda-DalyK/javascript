@@ -22,7 +22,7 @@ function wordCount(str) {
 
 /*console.log(wordCount("Hello World"))
 
-/* A TERMINER/*
+----------------------Terminé  -------------------------------------------------------------
 
 - je crée une fonction qui s'apelle wordcount qui contient une string
 - cette fonction doit retourner le nombre de mots compris dans la string
