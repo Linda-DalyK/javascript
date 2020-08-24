@@ -1,11 +1,15 @@
 // function exOh(str) 
 
 var str = 'xoxoxoxoxoxoxo'
-var compteur = 0
+var total = 0
+var i = 'x'
 
+for (i = 0; i <= str.length; i++) {
 
+    total = i;
+}
 
-console.log(str.indexOf('x'))
+console.log(total)
 
 
 
