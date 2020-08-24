@@ -27,6 +27,7 @@
 
 // ------------------- Terminé---------------------------------------------------
 
+
 function ageCalculator(date) {
 
     var birthday = date;
@@ -35,12 +36,23 @@ function ageCalculator(date) {
     myAge = (now.getFullYear) - ('date'.getFullYear)
 
     return myAge
+//************************************************************************************************ */
+    // revoir version Raky
+// var now = new Date();
+// function ageCalculator(date) {
+//   var toto = new Date(date);
+//   var age = 0;
+//     age = now.getFullYear() - toto.getFullYear();
+//     // console.log(now.getFullYear());
+//     // console.log(dateOfBirth.getFullYear());
+//     // console.log(now.getFullYear() - dateOfBirth.getFullYear());
+//     // console.log(age);
+//   return age;
+// }
+// console.log(ageCalculator('January 13, 1980 11:20:00') + 'ans');
+// ***************************************************************************************************
 
 
-
-
-
-}
 
 // console.log(ageCalculator('1982-04-14') +  "ans")
 // console.log(typeof(1982-04-14))
