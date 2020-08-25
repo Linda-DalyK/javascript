@@ -30,12 +30,20 @@
 
 function ageCalculator(date) {
 
-    var birthday = date;
+    var birthday = new Date();
     var now = new Date();
 
-    myAge = (now.getFullYear) - ('date'.getFullYear)
+    myAge = (now.getFullYear) - (birthday.getFullYear)
 
     return myAge
+
+}
+
+console.log(ageCalculator('1982-04-14'))
+
+console.log(typeOf('1982-04-14'))
+
+
 //************************************************************************************************ */
     // revoir version Raky
 // var now = new Date();
@@ -61,6 +69,6 @@ function ageCalculator(date) {
 // console.log(now.getFullYear())
 
 
-console.log(now.getFullYear());
-console.log(birthday.getFullYear());
-console.log(now.getFullYear() - birthday.getFullYear());
+// console.log(now.getFullYear());
+// console.log(birthday.getFullYear());
+// console.log(now.getFullYear() - birthday.getFullYear());
