@@ -10,36 +10,36 @@
 // si i est une minuscule, ça doit retourner une minuscule
 // si la boucle arrive à z/Z, elle doit repartir de zéro depuis a/A
 
+// *******************************Me début*****************************************************
+// function rot13(str) {
 
-function rot13(str) {
+//     var result = ''
+//     // var i = charCodeAt(i)
+//     // var start = 65
+//     // var end = 90
 
-    var result = ''
-    // var i = charCodeAt(i)
-    // var start = 65
-    // var end = 90
+//     // console.log(String.fromCharCode(65))
+//     for (var i = 0; i <= str.length - 1; i++) {
 
-    // console.log(String.fromCharCode(65))
-    for (var i = 0; i <= str.length - 1; i++) {
-
-        console.log("======= new letter =========")
-        console.log(str.charAt(i)
-        ) // lettre
-        // console.log(str.charCodeAt(i)) // son code ASCII
-        console.log(String.fromCharCode(str.charCodeAt(i) + 13))
-        // result += String.fromCharCode(str.charCodeAt(i))
-        result += String.fromCharCode(str.charCodeAt(i) + 13)
-
-
-    }
-    console.log('====== my result ======')
-    return result
-
-}
-
-// console.log(rot13('ABCabc'))
-console.log(rot13('z'))
+//         console.log("======= new letter =========")
+//         console.log(str.charAt(i)
+//         ) // lettre
+//         // console.log(str.charCodeAt(i)) // son code ASCII
+//         console.log(String.fromCharCode(str.charCodeAt(i) + 13))
+//         // result += String.fromCharCode(str.charCodeAt(i))
+//         result += String.fromCharCode(str.charCodeAt(i) + 13)
 
 
+//     }
+//     console.log('====== my result ======')
+//     return result
+
+// }
+
+// // console.log(rot13('ABCabc'))
+// console.log(rot13('z'))
+
+// *********************************Me Fin*********************************************
 // ******************************RAKY début******************************************
 // function rot13(str)
 
@@ -57,7 +57,47 @@ console.log(rot13('z'))
 // console.log("AbcZ")
 
 // ****************************RAKY fin *****************************************************
+// *******************************Lilia début***************************************************
+'use strict'
+var str = 'abc';
+function rot13(str) {
+    // var result = ''
+    // for (var i = 0; i < str.length; i++) {
+    //     // console.log(str[i]);
+    //     result += String.fromCharCode(str.charCodeAt(i) + 13)
+    // }
+    var result = ''
+    // var comptmin = 65
+    // var comptemax = 90
+    for (var i = 0; i < str.length; i++) {
+        if (str.charCodeAt(i) >= 65 && str.charCodeAt(i) <= 90) {
+            result1 += String.fromCharCode(str.charCodeAt(i) + 13)
+            console.log(result1)
+        } else if (str.charCodeAt(i) >= 97 && str.charCodeAt(i) <= 122) {
+            console.log((String.fromCharCode(str.charCodeAt(i) + 13))
+        } else if ((String.fromCharCode(str.charCodeAt(i) + 13)) > 90 && (String.fromCharCode(str.charCodeAt(i) + 13)) > 122){
+            //             result += String.fromCharCode(str.charCodeAt(i) + 13)-26
 
+        }
+
+
+
+        }
+        
+        
+        
+        
+//         (str.charCodeAt(i) >= 97 && str.charCodeAt(i) <= 122) {
+//             result2 += String.fromCharCode(str.charCodeAt(i) + 13)
+//         } else  ((String.fromCharCode(str.charCodeAt(i) + 13)) > 90 && (String.fromCharCode(str.charCodeAt(i) + 13)) > 122){
+//             result += String.fromCharCode(str.charCodeAt(i) + 13)-26
+//         }
+//     return result
+//     }
+// }
+// console.log(rot13('AbcZ'))
+// String.fromCharCode( str.charCodeAt(i) + 13 )
+// *********************************************************************************************
 // console.log(rot13('abc'))
 
 
@@ -89,4 +129,3 @@ console.log(rot13('z'))
 
 
 // ---------------------------------------- A FINIR   ------------------------------------------------------
-

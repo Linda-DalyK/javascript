@@ -5,7 +5,7 @@ function alphabetSoup(str) {
 
     for (var i = 0; i < str.length; i++) {
 
-        for (var j = 0; j <= str.length; j++)
+        for (var j = 0; j < str.length; j++)
 
             if (string[i] < string[i + 1]) {
 

@@ -11,7 +11,7 @@ result = i*i
 
 function squareRoot(num) {
 
-   num= 
+
 
 }
 

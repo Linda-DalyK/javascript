@@ -24,8 +24,8 @@ function firstReverse(str) {
 
     for (var i = str.length - 1; i >= 0; i--) {
         var result = charAt(i)
-        result += 
-        console.log(split ("")
+        result +=
+            console.log(split(""))
     }
     return result;
 }
