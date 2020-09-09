@@ -31,11 +31,8 @@ var now = new Date();
 function ageCalculator(date) {
   var birthday = new Date(date);
   var age = 0;
-    age = now.getFullYear() - birthday.getFullYear();
-    // console.log(now.getFullYear());
-    // console.log(dateOfBirth.getFullYear());
-    // console.log(now.getFullYear() - dateOfBirth.getFullYear());
-    // console.log(age);
+  age = now.getFullYear() - birthday.getFullYear();
+
   return age;
 }
 console.log(ageCalculator('April 14, 1982') + 'ans');

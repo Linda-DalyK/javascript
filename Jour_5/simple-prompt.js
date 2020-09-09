@@ -11,3 +11,7 @@ prompt.get(['username','email'], function(err,result){
 });
 
 
+function onErr(err) {
+        console.log(err);
+        return 1;
+      }

@@ -1,6 +1,6 @@
 function vowelCount(str) {
 
-    if (charCodeAt(string.length) == 97 ) {
+    if (charCodeAt(string.length) == 97) {
         return 1;
     }
     else {
@@ -11,4 +11,3 @@ function vowelCount(str) {
 console.log(vowelCount('hello'))
 
 
-/*A REFAIRE*/

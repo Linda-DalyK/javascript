@@ -1,9 +1,9 @@
 var now = new Date();
 
-function formatDateToday(){
+function formatDateToday() {
 
 
-return new Date()
+    return new Date()
 
 }
 

@@ -9,11 +9,11 @@
 var arr = []
 var result = 0
 
-for (var i = 0;  i<5; i++){
+for (var i = 0; i < 5; i++) {
 
     result += result + i
 
     return result
 }
 
-console.log(Math.random[0,7])
+console.log(Math.random[0, 7])

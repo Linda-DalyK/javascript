@@ -1,3 +1,3 @@
-var test= 'a new string';
+var test = 'a new string';
 
-console.log (test.length)
+console.log(test.length)

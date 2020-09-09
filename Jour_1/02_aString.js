@@ -1,3 +1,3 @@
 var test = 'a string';
 
-console.log (test)
+console.log(test)

@@ -1,3 +1,3 @@
-var food = ['apple','croissant','pear'];
+var food = ['apple', 'croissant', 'pear'];
 
 console.log(food[1]); 

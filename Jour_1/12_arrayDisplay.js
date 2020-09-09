@@ -1,3 +1,3 @@
-var croissantIngredients= ['flour','eggs','milk'];
+var croissantIngredients = ['flour', 'eggs', 'milk'];
 
 console.log(croissantIngredients)

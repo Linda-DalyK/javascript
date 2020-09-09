@@ -4,20 +4,20 @@ function wordCount(str) {
     result = bobby.length
     return result
 }
-    
-
-    console.log(wordCount("Hello World"))
 
 
-    function wordCount(str) {
+console.log(wordCount("Hello World"))
 
-        var bobby = str.split(" ");
-        result = bobby.length
-        return result
-    }
-        
-    
-        console.log(wordCount("one 22 three"))
+
+function wordCount(str) {
+
+    var bobby = str.split(" ");
+    result = bobby.length
+    return result
+}
+
+
+console.log(wordCount("one 22 three"))
 
 
 /*console.log(wordCount("Hello World"))

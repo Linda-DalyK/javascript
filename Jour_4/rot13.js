@@ -58,35 +58,35 @@
 
 // ****************************RAKY fin *****************************************************
 // *******************************Lilia début***************************************************
-'use strict'
-var str = 'abc';
-function rot13(str) {
-    // var result = ''
-    // for (var i = 0; i < str.length; i++) {
-    //     // console.log(str[i]);
-    //     result += String.fromCharCode(str.charCodeAt(i) + 13)
-    // }
-    var result = ''
-    // var comptmin = 65
-    // var comptemax = 90
-    for (var i = 0; i < str.length; i++) {
-        if (str.charCodeAt(i) >= 65 && str.charCodeAt(i) <= 90) {
-            result1 += String.fromCharCode(str.charCodeAt(i) + 13)
-            console.log(result1)
-        } else if (str.charCodeAt(i) >= 97 && str.charCodeAt(i) <= 122) {
-            console.log((String.fromCharCode(str.charCodeAt(i) + 13))
-        } else if ((String.fromCharCode(str.charCodeAt(i) + 13)) > 90 && (String.fromCharCode(str.charCodeAt(i) + 13)) > 122){
-            //             result += String.fromCharCode(str.charCodeAt(i) + 13)-26
+// 'use strict'
+// var str = 'abc';
+// function rot13(str) {
+//     // var result = ''
+//     // for (var i = 0; i < str.length; i++) {
+//     //     // console.log(str[i]);
+//     //     result += String.fromCharCode(str.charCodeAt(i) + 13)
+//     // }
+//     var result = ''
+//     // var comptmin = 65
+//     // var comptemax = 90
+//     for (var i = 0; i < str.length; i++) {
+//         if (str.charCodeAt(i) >= 65 && str.charCodeAt(i) <= 90) {
+//             result1 += String.fromCharCode(str.charCodeAt(i) + 13)
+//             console.log(result1)
+//         } else if (str.charCodeAt(i) >= 97 && str.charCodeAt(i) <= 122) {
+//             console.log((String.fromCharCode(str.charCodeAt(i) + 13))
+//         } else if ((String.fromCharCode(str.charCodeAt(i) + 13)) > 90 && (String.fromCharCode(str.charCodeAt(i) + 13)) > 122){
+//             //             result += String.fromCharCode(str.charCodeAt(i) + 13)-26
 
-        }
+//         }
 
 
 
-        }
-        
-        
-        
-        
+//         }
+
+
+
+
 //         (str.charCodeAt(i) >= 97 && str.charCodeAt(i) <= 122) {
 //             result2 += String.fromCharCode(str.charCodeAt(i) + 13)
 //         } else  ((String.fromCharCode(str.charCodeAt(i) + 13)) > 90 && (String.fromCharCode(str.charCodeAt(i) + 13)) > 122){
@@ -102,22 +102,22 @@ function rot13(str) {
 
 
 
-        // console.log(strSplit)
-        // console.log(str.charCodeAt(i))
-        // console.log(str.charCodeAt(i)+13)
-        // console.log(String.fromCharCode(str.charCodeAt(i)+13))
+// console.log(strSplit)
+// console.log(str.charCodeAt(i))
+// console.log(str.charCodeAt(i)+13)
+// console.log(String.fromCharCode(str.charCodeAt(i)+13))
 
 
 
-    // console.log(string.charCodeAt())
-    // console.log(str.charCodeAt(strSplit))
+// console.log(string.charCodeAt())
+// console.log(str.charCodeAt(strSplit))
 
-    // console.log(str.charCodeAt(i))
-    // console.log(strSplit.charCodeAt[i])
+// console.log(str.charCodeAt(i))
+// console.log(strSplit.charCodeAt[i])
 
-    // for (var i = 0; i <= str.length - 1; i++) {
+// for (var i = 0; i <= str.length - 1; i++) {
 
-        // console.log(str.split.charCodeAt(''))
+// console.log(str.split.charCodeAt(''))
 
 
 
@@ -129,3 +129,25 @@ function rot13(str) {
 
 
 // ---------------------------------------- A FINIR   ------------------------------------------------------
+
+
+
+switch (charAt(i)) {
+  case '+':
+    console.log('param1', 'param2', 'param3');    // Addition
+    break;
+  case '-':
+    console.log(param1, param2, param3);  // Soustraction
+    break;
+  case '*':
+    console.log(param1, param2, param3);  // Multplication
+    break;
+  case '/':
+    console.log(param1, param2, param3);  // Division
+    break;
+  case (doop.length !== 3):
+    console.log("error");  // Si le nombre de paramètres différent de 3= error
+    break;
+  default:
+    console.log("not rated");  // Instructions à exécuter lorsqu'aucune des valeurs ne correspond
+}

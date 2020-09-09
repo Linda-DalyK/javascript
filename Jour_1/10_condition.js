@@ -1,10 +1,10 @@
-var password='azerty'
+var password = 'azerty'
 
 
-if (password>'5') { 
-    console.log ('the password has more than five characters');
+if (password > '5') {
+    console.log('the password has more than five characters');
 } else {
-    console.log ('the password has five characters or less');
+    console.log('the password has five characters or less');
 }
 
 

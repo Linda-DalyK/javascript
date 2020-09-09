@@ -1,6 +1,3 @@
-//******************************Terminé********************************************* */
-
-
 
 var countX = 0;
 var countO = 0;
@@ -24,14 +21,7 @@ function exOh(str) {
 
 console.log(exOh('xoxoxoxoxoxoxo'))
 
-// console.log(countX)
-// console.log(countO)
-// console.log(countX === countO)
 
 
 
-// console.log(total)
-
-
-// return sans fonction: on sort du programme, si pas de fonction,pas besoin de return
 

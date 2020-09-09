@@ -1,5 +1,5 @@
-var food= 'croissant is ok'
+var food = 'croissant is ok'
 
-food = food.replace ('ok','amazing') 
+food = food.replace('ok', 'amazing')
 
-console.log (food);
+console.log(food);

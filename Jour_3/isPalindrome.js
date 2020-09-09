@@ -22,26 +22,21 @@ console.log(strSplit)
 // var str = 'hello'
 function isPalindrome(str) {
 
-var strInverse = ("");
+    var strInverse = ("");
 
-for (var i = 0; i < str.length; i++) {
-    // str += 1;
-    strInverse = str[i] + strInverse;
-}
-if (strInverse !== str) {
+    for (var i = 0; i < str.length; i++) {
+        // str += 1;
+        strInverse = str[i] + strInverse;
+    }
+    if (strInverse !== str) {
 
-    return false;
+        return false;
 
-} else {
+    } else {
 
-    return true;
+        return true;
 
-}
+    }
 }
 
 console.log(isPalindrome('kayak'))
-// console.log(strInverse)
-// console.log(str)
-
-
-// --------------------------Terminé-------------------------------------------------------------------
