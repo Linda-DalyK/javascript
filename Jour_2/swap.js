@@ -1,10 +1,10 @@
-var first=25
-var second=30
+var first = 25
+var second = 30
 
-function swap(first,second) { 
-return [second,first]
+function swap(first, second) {
+    return [second, first]
 }
 
-console.log(swapsecond,first);
+console.log(swapsecond, first);
 
 /*A REFAIRE*/
