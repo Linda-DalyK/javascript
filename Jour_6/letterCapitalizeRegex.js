@@ -1,68 +1,53 @@
-// ****************************1er challenge : sans Regex*******************************************
 
-// je splite ma string en tableau 
-// je transforme chaque charAt(0) en upperCase
+// 1. je parcours la string avec "match" pour récupérer les premiers caractères de chaque mot grace au pattern
+// 2. je tranforme chaque premier caractère isolé en majuscule grâce à UpperToCase  
+// 3. je recrée chaque mot de la string grâce à "join" ou à la concaténation
 
+// OU
 
-
-
-
-// console.log(toUpperCase)
-// console.log(arr[0])
+// 1. je parcours la string avec "replace" pour remplacer tous les premiers caractères par leur majuscule
 
 
 
 
-
-
-
-// var test = "hello paris";
-// test.substr(0, 1);
-// console.log(test.substr(0,1))
-
-// ****************************1er challenge : avec Regex*******************************************
-
-
-// je parcours la string avec search pour trouver les 1ères lettres de chaque mot
-// je remplace chaque 1er caractère par une majuscule
-// je concatène le 1ère lettre avec le reste du mot
-
-
-// var firstLetter = str.substr(0,1)
-// var arrSentence = str.split(" ")
-// var capitalize = firstLetter.toUpperCase()
-// var str = "what a wonderful world";
-
-// Mon code
-// function letterCapitalizeRegex (str){
-
+// function letterCapitalizeRegex(str) {
+//     // var str = "what a wonderful world";
+//     //   console.log(word);
 //     var word = str.match(/\b[a-z]/g)
 
 //     return word
-// }
 
+// }
 
 // console.log(letterCapitalizeRegex("what a wonderful world"))
+
+
+// function letterCapitalizeRegex(str) {
+//     // var str = "what a wonderful world";
+//     //   console.log(word);
+//     var word = str.replace(/\b[a-z]/g, function(param){
+//       var capitalize = param.toLocaleUpperCase();
+//         return capitalize;
+//     });
 // }
+//   console.log(letterCapitalizeRegex("what a wonderful world"))
 
-// var result = letterCapitalizeRegex("what a wonderful world")
-
-// console.log(result)
-    // return word
-
+// function letterCapitalizeRegex(str) {
+//     // var str = "what a wonderful world";
+  
+//     var word = str.replace(/\b[a-z]/g, function(param){
+//       var capitalize = param.toLocaleUpperCase();
+//         return capitalize;
+//     });
 // }
+//   ​  console.log(letterCapitalizeRegex("what a wonderful world"))
 
-// console.log(firstLetter)
-// console.log(letterCapitalizeRegex("what a wonderful world"))
-// console.log(capitalize)
-// console.log(arrSentence)
-// ***************************************************************************************
 
-function letterCapRegex() {
-    var str = "what a wonderful world";
-    //   console.log(word);
-    var word = str.match(/\b[a-z]/g);
-  return word;
-}
-var newWord = letterCapRegex()
-console.log(newWord)
+var str = "what a wonderful world";
+  //   console.log(word);
+  var word = str.replace(/\b[a-z]/g, function(param){
+    var capitalize = param.toLocaleUpperCase();
+      return capitalize;
+  });
+console.log(word)
+
